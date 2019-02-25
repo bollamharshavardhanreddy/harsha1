@@ -1,0 +1,272 @@
+*{
+    font-family: sans-serif;
+    color: darkslategray;
+}
+
+body {
+    background-image: url('../images/backgroundImage.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.navigation a {
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background: ghostwhite;
+    color: rgb(119, 176, 233);
+    cursor: pointer;
+    text-decoration: underline;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.navigationContent a {
+    font-weight: 700;
+    color: rgb(119, 176, 233);
+}
+
+.bodyContent {
+    position: relative;
+    top: 20px;
+    width: 100%;
+}
+
+.headerContent {
+    border: 1px solid lightblue;
+    background: ghostwhite;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    box-shadow: 20px 20px 50px rgb(88, 86, 86);
+    margin-bottom: 50px;
+}
+
+.image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.image {
+    text-align: right;
+}
+
+.content h2 {
+    padding-top: 85px;
+}
+
+article {
+    position: absolute;
+    width: 70%;
+    padding: 10px;
+    left: 5px;
+    margin-bottom: 100px;
+    opacity: .9;
+}
+
+.articleContent {
+    border: 1px solid lightblue;
+    background: ghostwhite;
+    border-radius: 10px;
+    width: 95%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+aside {
+    position: absolute;
+    width: 30%;
+    padding: 10px;
+    right: 5px;
+    margin-bottom: 100px;
+    opacity: .9;
+}
+
+.asideContent {
+    border: 1px solid lightblue;
+    background: ghostwhite;
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    height: 500px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background: rgb(170, 224, 224);
+    width: 110%;
+    left: -8px;    
+    padding: 20px 0px 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    font-size: .7em;
+}
+
+.form input {
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background: ghostwhite;
+    width: 100%;
+}
+
+.form textarea {
+    height: 100px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background: ghostwhite;
+    width: 100%;
+    height: 200px;
+}
+
+.form button {
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background: dodgerblue;
+    color: ghostwhite;
+    width: 50%;
+}
+
+.form button:hover {
+    background: rgb(168, 45, 37);
+    cursor: pointer;
+}
+
+.form {
+    margin-left: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(226, 226, 238);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.table {
+    width: 40%;
+    color: darkslategray;
+    background: rgb(234, 234, 243);
+}
+
+.socialMedia {
+    text-align: center;
+}
+
+.socialMediaContent div {
+    margin: 0;
+    padding-right: 5px;
+}
+
+hr {
+    border: 1px solid rgb(124, 110, 110);   
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside ol {
+    list-style-type:  none;
+}
+
+aside a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: dodgerblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.iconsContent div{
+    padding: 0px;
+}
+
+.subFooterContent {
+    text-align: right;
+    padding-right: 200px;
+}
+
+.subFooterContent p {
+    margin: 0px;
+}
+
+.calculator {
+    margin-top: 50px;
+    border: 1px solid lightblue;
+    background: ghostwhite;
+    border-radius: 10px;
+    width: 70%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0px 0px 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.calculator p {
+    margin-top: 80px;
+}
+
+.calculator select {
+    height: 40px;
+    width: 300px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.calculator input {
+    height: 40px;
+    width: 300px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+}
+
+.calculator button {
+    border: 1px solid ghostwhite;
+    background: rgb(188, 188, 224);
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.calculator button:hover {
+    background: rgb(4, 71, 4);
+    color: ghostwhite;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.calculator label {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+}
