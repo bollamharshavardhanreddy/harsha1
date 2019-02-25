@@ -1,0 +1,29 @@
+.img-circle{
+    width: 200px;
+    border-radius: 50%;
+}
+body{
+    background-image: url("./2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vamshi{
+    text-align: center;
+}
+#web{
+    text-align: center;
+}
+footer{
+    color: white;
+}
+.bgimg {
+    background-image: url("https://image.freepik.com/free-vector/bokeh-lights-glitter-background_1048-8548.jpg");
+    height: 100%;
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* fixed in viewport */
+  }
+  
